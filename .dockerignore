@@ -1,0 +1,12 @@
+node_modules
+.next
+dist
+npm-debug.log
+.env.local
+/.env
+.git
+.venv
+coverage
+*.log
+*.tsbuildinfo
+Technology Industrial Placement Program 2026 - Assessment.pdf

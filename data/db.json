@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "email": "user@example.com",
+      "passwordHash": "$2a$08$3UnDoYmrxz97Y.gMr9tYfedvPaPvD02EzUynb/o02GTp9LZIKVW8e"
+    }
+  ],
+  "assets": [
+    {
+      "id": "a2",
+      "name": "Vanguard Total Bond",
+      "type": "Bond",
+      "symbol": "BND",
+      "currentValue": 5000,
+      "purchasePrice": 4900
+    },
+    {
+      "id": "a3",
+      "name": "Vanguard Total Stock",
+      "type": "Mutual Fund",
+      "symbol": "VTI",
+      "currentValue": 8200,
+      "purchasePrice": 7600
+    },
+    {
+      "id": "a4",
+      "name": "Goldman Sachs Group, Inc. (The)",
+      "type": "Stock",
+      "symbol": "GS",
+      "currentValue": 923.71,
+      "purchasePrice": 923.71,
+      "quantity": 1
+    },
+    {
+      "id": "7db1bc58-8ff8-415f-b26c-20fb0a7f8f48",
+      "name": "Coca-Cola Company (The)",
+      "type": "Stock",
+      "symbol": "KO",
+      "currentValue": 7858,
+      "purchasePrice": 7858,
+      "quantity": 100
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "type": "buy",
+      "asset": "Apple Inc",
+      "amount": 10,
+      "date": "2026-04-01"
+    },
+    {
+      "id": "t2",
+      "type": "sell",
+      "asset": "Vanguard Total Bond",
+      "amount": 2,
+      "date": "2026-03-15"
+    },
+    {
+      "id": "cf6f61a1-e93a-4a52-a97f-7335c43fb311",
+      "type": "sell",
+      "asset": "Goldman Sachs Group, Inc. (The)",
+      "amount": 923.71,
+      "date": "2026-05-04",
+      "symbol": "GS",
+      "assetCategory": "Stock",
+      "price": 923.71,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "b205f062-0d41-4258-a26e-d0eb36e929b5",
+      "type": "buy",
+      "asset": "Goldman Sachs Group, Inc. (The)",
+      "amount": 1847.42,
+      "date": "2026-05-04",
+      "symbol": "GS",
+      "assetCategory": "Stock",
+      "price": 923.71,
+      "quantity": 2,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "6400e5a2-c6db-4993-ac6d-08b756f1efe7",
+      "type": "buy",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 45,
+      "date": "2025-10-15",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 45,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "565e8f48-0d6f-4fc7-8ed5-539d9d515313",
+      "type": "sell",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 50,
+      "date": "2026-02-03",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 50,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "4eb0faf1-c61e-48ff-a29f-f3970b4f61d2",
+      "type": "buy",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 60,
+      "date": "2026-05-01",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 60,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "82b6456a-a22e-4f9a-a090-dbd1c93fd504",
+      "type": "buy",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 350,
+      "date": "2020-02-04",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 70,
+      "quantity": 5,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "917b9be1-459b-4270-a7b5-10e8f2ab920a",
+      "type": "sell",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 471.48,
+      "date": "2026-05-04",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 78.58,
+      "quantity": 6,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "f7423db9-ff69-4533-9ac0-25235e2fe562",
+      "type": "sell",
+      "asset": "Apple Inc",
+      "amount": 280.25,
+      "date": "2026-05-04",
+      "symbol": "AAPL",
+      "assetCategory": "Stock",
+      "price": 280.25,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "48875ab9-b546-495b-8811-f4081b665705",
+      "type": "sell",
+      "asset": "Apple Inc",
+      "amount": 280.25,
+      "date": "2026-05-04",
+      "symbol": "AAPL",
+      "assetCategory": "Stock",
+      "price": 280.25,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "5bc26b0c-4707-4769-af88-5f0069272c41",
+      "type": "sell",
+      "asset": "Apple Inc",
+      "amount": 280.25,
+      "date": "2026-05-04",
+      "symbol": "AAPL",
+      "assetCategory": "Stock",
+      "price": 280.25,
+      "quantity": 1,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "1af9917d-d198-4ee7-bde0-0e0d05ce2c0d",
+      "type": "buy",
+      "asset": "Apple Inc",
+      "amount": 1200,
+      "date": "2026-05-04",
+      "symbol": "AAPL",
+      "assetCategory": "Stock",
+      "price": 240,
+      "quantity": 5,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "499a1974-2f7f-40d6-adda-6d5fcbbb8698",
+      "type": "sell",
+      "asset": "Apple Inc",
+      "amount": 2802.5,
+      "date": "2026-05-04",
+      "symbol": "AAPL",
+      "assetCategory": "Stock",
+      "price": 280.25,
+      "quantity": 10,
+      "commission": 0,
+      "notes": ""
+    },
+    {
+      "id": "152bb8d1-51d0-429a-bff8-7e9822777d03",
+      "type": "buy",
+      "asset": "Coca-Cola Company (The)",
+      "amount": 7858,
+      "date": "2024-05-04",
+      "symbol": "KO",
+      "assetCategory": "Stock",
+      "price": 78.58,
+      "quantity": 100,
+      "commission": 0,
+      "notes": ""
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-01-01",
+      "value": 12000
+    },
+    {
+      "date": "2026-02-01",
+      "value": 12600
+    },
+    {
+      "date": "2026-03-01",
+      "value": 12150
+    },
+    {
+      "date": "2026-04-01",
+      "value": 13800
+    },
+    {
+      "date": "2026-05-01",
+      "value": 14250
+    }
+  ]
+}
